@@ -3,9 +3,15 @@ $color2: #4F5D75;
 $color3: #BFC0C0;
 $color4: #FFFFFF;
 $color5: #EF8354; */
-
 body {
+    margin: 0px;
+}
+#root {
     background-color: #2D3142;
+}
+
+#root-light {
+    background-color: white;
 }
 
 .nav-bar {
@@ -22,7 +28,21 @@ body {
     align-items: center;
 }
 
+.nav-menu-light {
+    flex: 50%;
+    max-width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .class-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.class-logo-light {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -40,6 +60,18 @@ body {
     font-size: 40px;
 }
 
+.class-logo-light a {
+    color: #2d3142;
+    padding: 10px;
+    border-radius: 10px;
+    border-right: 3px solid #2d3142;
+    border-bottom: 3px solid #2d3142;
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+}
+
 .nav-menu a {
     text-decoration: none;
     color: #FFFFFF;
@@ -47,8 +79,15 @@ body {
     font-family: 'Archivo', sans-serif;
 }
 
+.nav-menu-light a {
+    text-decoration: none;
+    color: #2d3142;
+    font-size: 20px;
+    font-family: 'Archivo', sans-serif;
+}
+
 .main-header-section {
-    height: 500px;
+    height: 600px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -57,6 +96,20 @@ body {
 .main-header-section h1 {
     margin-left: 100px;
     color: #FFFFFF;
+    font-size: 60px;
+    font-family: 'Archivo', sans-serif;
+}
+
+.main-header-section-light {
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-header-section-light h1 {
+    margin-left: 100px;
+    color: #2d3142;
     font-size: 60px;
     font-family: 'Archivo', sans-serif;
 }
@@ -135,6 +188,7 @@ body {
 
 .professor-photo img {
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .professor-info p {
@@ -181,4 +235,22 @@ body {
 
 .footer a {
     margin: 30px;
+}
+
+.syllabus-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 800px;
+    width: 80%;
+}
+.syllabus iframe {
+    height: 700px;
+    width: 100%;
+}
+
+.post-header-syllabus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2d3142;
 }
