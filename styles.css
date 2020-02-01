@@ -123,7 +123,7 @@ body {
 }
 
 .responsive-section-schedules {
-    background-color: white;
+    background-color: #4F5D75;
     display: flex;
     flex-wrap: no-wrap;
     justify-content: space-between;
@@ -235,13 +235,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .footer p {
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
     margin: 30px;
+    color: black;
 }
 
 .footer a {
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
     margin: 30px;
 }
 
@@ -263,7 +267,20 @@ body {
     background-color: #2d3142;
 }
 
-.left-calendar-container {
+.post-header-schedules {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2d3142;
+}
+
+.post-header-help {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2d3142;
+}
+/* .left-calendar-container {
     height: 600px;
     flex: 50%;
     max-width: 50%;
@@ -277,20 +294,52 @@ body {
     max-width: 50%;
     margin: 20px;
     background-color: #4F5D75;
-}
+} */
 
-@media screen and (max-width: 1200px) {
-    .left-calendar-container {
-        flex: 100%;
-        max-width: 100%;
+/* @media screen and (max-width: 1200px) { */
+    /* .left-calendar-container {
+         flex: 100%;
+        max-width: 100%; 
     }
 
     .right-calendar-container {
-        flex: 100%;
-        max-width: 100%;
-    }
+         flex: 100%;
+        max-width: 100%; 
+    } */
 
     .responsive-section-schedules {
+        background-color: #2d3142;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height: 800px;
+        width: 80%;
+        /* flex-wrap: wrap;
+        flex: 100%;
+        max-width: 100%; */
+    }
+    
+    .responsive-section-help {
+        background-color: #2d3142;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height: 400px;
+        width: 80%;
+    }
+
+    .help-ta-table {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         flex-wrap: wrap;
+        color: white;
+        border-collapse: separate;
+        border-spacing: 1em;
+    }
+    .col {
+        padding-top: 5px;
+    }
+    .ta-lab-header {
+        font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        color: white;
     }
 }

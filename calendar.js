@@ -321,25 +321,25 @@
   
   !function() {
     var data = [
-      { eventName: 'Lunch Meeting w/ Mark', calendar: 'Work', color: 'orange' },
-      { eventName: 'Interview - Jr. Web Developer', calendar: 'Work', color: 'orange' },
-      { eventName: 'Demo New App to the Board', calendar: 'Work', color: 'orange' },
-      { eventName: 'Dinner w/ Marketing', calendar: 'Work', color: 'orange' },
+      { eventName: 'Lab 1: Grades', calendar: 'Labs', color: 'orange' },
+      { eventName: 'Lab 2: Snap', calendar: 'Labs', color: 'orange' },
+      { eventName: 'Lab 3: Linked List', calendar: 'Labs', color: 'orange' },
+      { eventName: 'Lab 4: Iterator', calendar: 'Labs', color: 'orange' },
   
-      { eventName: 'Game vs Portalnd', calendar: 'Sports', color: 'blue' },
-      { eventName: 'Game vs Houston', calendar: 'Sports', color: 'blue' },
-      { eventName: 'Game vs Denver', calendar: 'Sports', color: 'blue' },
-      { eventName: 'Game vs San Degio', calendar: 'Sports', color: 'blue' },
+      { eventName: 'Quiz 1', calendar: 'Quiz', color: 'blue' },
+      { eventName: 'Quiz 2', calendar: 'Quiz', color: 'blue' },
+      { eventName: 'Quiz 3', calendar: 'Quiz', color: 'blue' },
+      { eventName: 'Quiz 4', calendar: 'Quiz', color: 'blue' },
   
-      { eventName: 'School Play', calendar: 'Kids', color: 'yellow' },
-      { eventName: 'Parent/Teacher Conference', calendar: 'Kids', color: 'yellow' },
-      { eventName: 'Pick up from Soccer Practice', calendar: 'Kids', color: 'yellow' },
-      { eventName: 'Ice Cream Night', calendar: 'Kids', color: 'yellow' },
+      { eventName: 'Homework 1', calendar: 'Homework', color: 'yellow' },
+      { eventName: 'Homework 2', calendar: 'Homework', color: 'yellow' },
+      { eventName: 'Homework 3', calendar: 'Homework', color: 'yellow' },
+      { eventName: 'Homework 4', calendar: 'Homework', color: 'yellow' },
   
-      { eventName: 'Free Tamale Night', calendar: 'Other', color: 'green' },
-      { eventName: 'Bowling Team', calendar: 'Other', color: 'green' },
-      { eventName: 'Teach Kids to Code', calendar: 'Other', color: 'green' },
-      { eventName: 'Startup Weekend', calendar: 'Other', color: 'green' }
+      { eventName: 'Midterm 1', calendar: 'Test', color: 'green' },
+      { eventName: 'Midterm 2', calendar: 'Test', color: 'green' },
+      { eventName: 'Midterm 3', calendar: 'Test', color: 'green' },
+      { eventName: 'Final Test', calendar: 'Test', color: 'green' }
     ];
   
     

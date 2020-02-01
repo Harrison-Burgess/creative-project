@@ -3,7 +3,7 @@
     }
     
     body {
-     overflow: hidden;
+     /* overflow: hidden; */
      font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
      font-weight: 100;
      color: rgba(255, 255, 255, 1);
@@ -25,7 +25,7 @@
       width: 420px;
       margin: 0 auto;
       height: 570px;
-      overflow: hidden;
+      /* overflow: hidden; */
     }
     
     .header {
@@ -150,7 +150,7 @@
       text-align: center;
       height: 12px;
       line-height: 6px;
-      overflow: hidden;
+      /* overflow: hidden; */
     }
     
     .day .day-events span {
@@ -206,8 +206,8 @@
     .events {
       height: 75px;
       padding: 7px 0;
-      overflow-y: auto;
-      overflow-x: hidden;
+      /* overflow-y: auto;
+      overflow-x: hidden; */
     }
     
     .events.in {
