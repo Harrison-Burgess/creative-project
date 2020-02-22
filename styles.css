@@ -59,7 +59,9 @@ body {
     font-family: 'Orbitron', sans-serif;
     font-size: 40px;
 }
-
+.single-search-result {
+    display: block;
+}
 .class-logo-light a {
     color: #2d3142;
     padding: 10px;
@@ -128,7 +130,19 @@ body {
     flex-wrap: no-wrap;
     justify-content: space-between;
 }
-
+.responsive-section-career{
+    background-color: #4F5D75;
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+}
+.career-search-form {
+    display: flex;
+    background-color: gray;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+}
 .professor-section-left {
     height: 400px;
     flex: 50%;
