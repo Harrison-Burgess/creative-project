@@ -1,4 +1,4 @@
-/* $color1: #2D3142;
+/* $olor1: #2D3142;
 $color2: #4F5D75;
 $color3: #BFC0C0;
 $color4: #FFFFFF;
@@ -60,7 +60,36 @@ body {
     font-size: 40px;
 }
 .single-search-result {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 80%;
+    max-width: 80%;
+    background-color: #2d3142;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid white;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.career-search-results {
+    background-color: #2d3142;
+    padding-bottom: 30px;
+}
+.job-title-link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 45px;
+    padding-left: 50px;
+}
+.job-title-link:hover {
+    text-decoration: none;
+    color: #EF8354;
+}
+.company-location {
+    padding-right: 50px;
+    font-size: 25px;
 }
 .class-logo-light a {
     color: #2d3142;
@@ -136,12 +165,16 @@ body {
     flex-wrap: no-wrap;
     justify-content: space-between;
 }
-.career-search-form {
+.form form{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
     display: flex;
-    background-color: gray;
+    color: white;
+    background-color: #2D3142;
     justify-content: space-around;
     height: 100px;
     width: 100%;
+    align-items: center;
 }
 .professor-section-left {
     height: 400px;
